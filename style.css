@@ -16,12 +16,14 @@ p {
   text-decoration: none;
 }
 
+
+
 .block {
   /* border: 10px solid #575650; */
   display: flex;
   flex-direction: row;
 
-  margin: 0 auto;
+  /* margin: 0 auto; */
 
   width: 1000px;
 }
@@ -31,7 +33,7 @@ p {
     display: flex;
       flex-direction: row;
      max-width: 1000px;
-      margin: 0 auto;
+      /* margin: 0 auto; */
   /* width: 350px; */
   /* height: 404px; */
 }
@@ -50,7 +52,7 @@ padding-top: 25px;
 .firstName {
   align-items: center;
   background-color: #040457;
-margin-left: 220px;
+margin-left: 120px;
   height: 404px;
 }
 
@@ -83,7 +85,7 @@ margin-left: 220px;
 }
 
 .left_div {
-  width: 600px;
+  width: 400px;
   /* border: 10px solid #dfdec8; */
 }
 /* .text {
@@ -167,9 +169,13 @@ margin-left: 220px;
 /*====right div===== */
 
 .right_div {
+  width: 800px;
   background-color: rgb(236, 233, 233);
+  border-right: 7px solid #fff;
 }
-
+.Additional-block{
+  width: 650px;
+}
 
 .Projects_skills-block {
   display: flex;
@@ -228,4 +234,8 @@ margin-left: 220px;
 
 .block-list {
   width: 450px;
+}
+
+.margenFive {
+  padding-top: 5px;
 }
